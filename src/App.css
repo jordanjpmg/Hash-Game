@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.Sobre {
+  text-transform: uppercase;
+  width: 50px;
+  height: 17px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #707070;
+}
