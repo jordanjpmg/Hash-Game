@@ -1,0 +1,9 @@
+body {
+  background-color: var(--color-second);
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: var(--color-frist);
+  font-size: var(--font-size-big);
+}
