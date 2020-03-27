@@ -6,8 +6,20 @@ function App() {
   return (
     <>
       <Header />
-      <Board />
-      <Player player="x"/>
+      <Board>
+        <Player player="x"/>
+        <Player player="x"/>
+        <Player player="x"/>
+
+        <Player player="x"/>
+        <Player player="o"/>
+        <Player player="x"/>
+
+        <Player player="o"/>
+        <Player player="x"/>
+        <Player player="o"/>
+
+      </Board>
     </>
   );
 }
