@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 
 const Board = () => {
-  return <div className="board"></div>;
+  return <article className="board"></article>;
 };
 
 export default Board;

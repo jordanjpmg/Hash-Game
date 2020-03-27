@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Components/Header";
-import Board from "./Components/Board";
+import Header from "./components/Header";
+import Board from "./components/Board";
 function App() {
   return (
     <>
