@@ -1,10 +1,9 @@
-.Sobre {
+.sobre {
   text-transform: uppercase;
   width: 50px;
   height: 17px;
   font-weight: bold;
   font-size: 14px;
-  line-height: normal;
-  letter-spacing: normal;
   color: #707070;
+  text-decoration: none;
 }
