@@ -4,7 +4,6 @@ import "./styles.css";
 const Board = ({children}) => {
   return(
     <article className="board">
-      
       {children} 
     </article>);
 };

@@ -1,25 +1,13 @@
 import React from "react";
 import Header from "./components/Header";
-import Board from "./components/Board";
-import Player from "./objects/Player";
+import HashTag from "./components/HashTag";
+
 function App() {
   return (
     <>
       <Header />
-      <Board>
-        <Player player="x"/>
-        <Player player="x"/>
-        <Player player="x"/>
+      <HashTag/>
 
-        <Player player="x"/>
-        <Player player="o"/>
-        <Player player="x"/>
-
-        <Player player="o"/>
-        <Player player="x"/>
-        <Player player="o"/>
-
-      </Board>
     </>
   );
 }
