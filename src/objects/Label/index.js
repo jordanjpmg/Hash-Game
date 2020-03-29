@@ -1,8 +1,12 @@
 import React from "react";
-import './styles.css';
+import "./styles.css";
 
-const Label = ({content})=>{
-return(<label className="label" htmlFor="">{content}</label>)
-}
+const Label = ({ content, htmlFor }) => {
+  return (
+    <label className="label" htmlFor={htmlFor}>
+      {content}
+    </label>
+  );
+};
 
-export default Label
+export default Label;
