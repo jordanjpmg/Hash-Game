@@ -9,7 +9,7 @@ function App() {
     <main className="app">
       <Header />
       <HashTag />
-      <Input id="show" value="show" content="Mostrar eventos" />
+      <Input id="show" value="show" type="checkbox" content="Mostrar eventos" />
     </main>
   );
 }
