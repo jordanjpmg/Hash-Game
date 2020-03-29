@@ -1,5 +1,10 @@
-.label{
+.label {
   font-size: var(--size-small);
-  color: var(--color-fourth) ;
+  color: var(--color-fourth);
   font-weight: bold;
+}
+
+.label::selection {
+  background-color: var(--color-frist);
+  color: var(--color-zero);
 }
