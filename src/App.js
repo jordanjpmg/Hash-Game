@@ -3,6 +3,7 @@ import "./App.css";
 import CheckBox from "./objects/CheckBox";
 import About from "./objects/About";
 import AboutLink from "./objects/AboutLink";
+import IconClose from "./objects/IconClose";
 
 import Header from "./components/Header";
 import HashTag from "./components/HashTag";
@@ -20,6 +21,7 @@ function App() {
       />
       <About>
         <AboutLink className="-light" />
+        <IconClose />
       </About>
     </main>
   );
