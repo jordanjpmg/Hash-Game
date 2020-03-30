@@ -1,9 +1,11 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header";
-import HashTag from "./components/HashTag";
 import CheckBox from "./objects/CheckBox";
 import About from "./objects/About";
+import AboutLink from "./objects/AboutLink";
+
+import Header from "./components/Header";
+import HashTag from "./components/HashTag";
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
         type="checkbox"
         content="Mostrar eventos"
       />
-      <About />
+      <About>
+        <AboutLink className="-light" />
+      </About>
     </main>
   );
 }
