@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import HashTag from "./components/HashTag";
 import CheckBox from "./objects/CheckBox";
+import About from "./objects/About";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         type="checkbox"
         content="Mostrar eventos"
       />
+      <About />
     </main>
   );
 }
