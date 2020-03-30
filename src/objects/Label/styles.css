@@ -5,6 +5,6 @@
 }
 
 .label::selection {
-  background-color: var(--color-frist);
+  background-color: var(--color-first);
   color: var(--color-zero);
 }
