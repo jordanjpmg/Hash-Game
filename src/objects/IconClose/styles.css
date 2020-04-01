@@ -9,7 +9,7 @@
 .icon-close::before,
 .icon-close::after {
   content: "";
-  display: inline-block;
+  top: -1px;
   width: 135%;
   height: 3px;
   background-color: var(--color-zero);
@@ -18,14 +18,12 @@
 }
 
 .icon-close::before {
-  top: -1px;
   left: 2px;
   transform: rotate(46deg);
   transform-origin: top left;
 }
 
 .icon-close::after {
-  top: -1px;
   right: 2px;
   transform: rotate(-46deg);
   transform-origin: top right;
