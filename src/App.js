@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import CheckBox from "./objects/CheckBox";
 import About from "./objects/About";
+import LogoCollab from "./objects/LogoCollab";
 import AboutLink from "./objects/AboutLink";
 import IconClose from "./objects/IconClose";
 
@@ -20,6 +21,7 @@ function App() {
         content="Mostrar eventos"
       />
       <About>
+        <LogoCollab />
         <AboutLink className="-light" />
         <IconClose />
       </About>
