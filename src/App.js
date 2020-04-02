@@ -2,12 +2,10 @@ import React from "react";
 import "./App.css";
 import CheckBox from "./objects/CheckBox";
 import About from "./objects/About";
-import LogoCollab from "./objects/LogoCollab";
-import AboutLink from "./objects/AboutLink";
-import IconClose from "./objects/IconClose";
 
 import Header from "./components/Header";
 import HashTag from "./components/HashTag";
+import HeaderInternal from "./components/HeaderInternal";
 
 function App() {
   return (
@@ -21,9 +19,7 @@ function App() {
         content="Mostrar eventos"
       />
       <About>
-        <LogoCollab />
-        <AboutLink className="-light" />
-        <IconClose />
+        <HeaderInternal />
       </About>
     </main>
   );
