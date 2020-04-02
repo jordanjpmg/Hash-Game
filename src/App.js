@@ -1,7 +1,11 @@
 import React from "react";
 import "./App.css";
+
+import Profile from "./images/profile.jpeg";
+
 import CheckBox from "./objects/CheckBox";
 import About from "./objects/About";
+import AvatarProfile from "./objects/AvatarProfile";
 
 import Header from "./components/Header";
 import HashTag from "./components/HashTag";
@@ -20,6 +24,7 @@ function App() {
       />
       <About>
         <HeaderInternal />
+        <AvatarProfile src={Profile} />
       </About>
     </main>
   );
