@@ -5,11 +5,11 @@ import IconClose from "../../objects/IconClose";
 
 const HeaderInternal = () => {
   return (
-    <>
+    <header className="header-internal">
       <LogoCollab light />
       <AboutLink className="-light" />
       <IconClose />
-    </>
+    </header>
   );
 };
 
